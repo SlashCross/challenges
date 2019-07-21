@@ -31,7 +31,9 @@ module.exports = {
       vue: 'never'
     }],
     // disable semicolon requirement for files
-    'eslint semi': ["error", "never"],
+    'semi': ["error", "never"],
+    //only require function name if needed
+    'func-names': ["error", "never"],
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     'no-param-reassign': ['error', {

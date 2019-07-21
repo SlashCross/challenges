@@ -1,7 +1,9 @@
 import Vuex from 'vuex'
+import Dog from './Dog'
 
 const store = new Vuex.Store({
   modules: {
+    Dog,
   },
   state: {
 
@@ -14,7 +16,7 @@ const store = new Vuex.Store({
   },
   getters: {
 
-  }
+  },
 })
 
 export default store
