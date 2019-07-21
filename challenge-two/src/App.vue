@@ -52,9 +52,4 @@ export default {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-
-  :root {
-    --font: 'Bahianita';
-    --font-color: '#fff';
-  }
 </style>

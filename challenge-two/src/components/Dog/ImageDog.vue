@@ -10,7 +10,8 @@
 export default {
   name: 'ImageDog',
   props: ['selectedBreed', 'selectedName'],
-  watch: {selectedBreed: function (breedName) {
+  watch: {
+    selectedBreed: function (breedName) {
       this.get_img(breedName)
     },
   },

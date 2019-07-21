@@ -153,11 +153,11 @@ export default {
       const vm = this
       const form = localStorage.getItem('form') ? JSON.parse(localStorage.getItem('form')) : {}
 
-      vm.fontPicker(vm.form.font)
-
       Object.keys(form).forEach((key) => {
         vm.form[key] = form[key]
       })
+
+      vm.fontPicker(vm.form.font)
 
       if (form.dateTime) {
         vm.dateTime = vm.form.dateTime
